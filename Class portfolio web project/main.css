@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./images/trianglepattern.png);
+
+}
+h1 {
+    text-transform: uppercase;
+    text-shadow: 3px 2px 5px #637383;
+    background-color: rgba(186, 171, 171, 0.721);
+    text-align: center;
+    border-radius: 15px;
+    border: solid black;
+    background-image: radial-gradient(#ffffff, rgba(98, 79, 79, 0.707));
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    text-transform: capitalize;
+    background-color: rgb(205, 200, 200);
+    font-size: 17pt;
+    border-radius: 15px;
+    border: solid black;
+}
+nav a{
+    padding: 20px;
+    background-color:rgba(119, 136, 153, 0.59);
+    border: 2px solid black;  
+}
+#navigation{
+    background-color: #bebebe;
+    padding: 30px 10px 30px;
+    
+}
+#maincontent{
+    width: 80%;
+    margin: auto;
+}
+a:link{
+    color: darkcyan;
+}
+a:hover{
+    text-decoration: none;
+    color: navy;
+}
+a:visited{
+    color: purple;
+}
+#positionleft{
+    float: left;
+}
+#positionright{
+    float: right;
+}
